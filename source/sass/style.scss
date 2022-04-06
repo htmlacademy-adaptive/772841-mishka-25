@@ -1,1 +1,10 @@
-// Начните писать стили здесь
+// Global
+@import "global/fonts";
+@import "global/variables";
+@import "global/global";
+@import "global/main";
+
+// components
+
+@import "components/button";
+@import "components/visually-hidden";

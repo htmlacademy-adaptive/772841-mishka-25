@@ -217,12 +217,12 @@
       </button>
       <ul class="main-nav__list menu-main">
         <li class="menu-main__item">
-          <a href="catalog.html">
+          <a href="/catalog.html">
             Каталог товаров
           </a>
         </li>
         <li class="menu-main__item">
-          <a href="form.html">
+          <a href="/form.html">
             Вязание на заказ
           </a>
         </li>
@@ -272,126 +272,100 @@
       </p>
     </nav>
     <div class="header__banner">
-      <h1 class="header__title header__title--main">
-        Милые штуки ручной работы для дома
+      <h1 class="header__title header__title--catalog">
+        Каталог товаров
       </h1>
     </div>
   </header>
   <main class="page-main">
-    <h2 class="visually-hidden">Интернет-магазин "Мишка". Изделия ручной работы.</h2>
-    <section class="categories wrapper">
-      <h2 class="visually-hidden">Предложение недели</h2>
-      <ul class="categories__list categories__list--interior">
-        <li class="categories__item">
-          <a>
-            <img class="categories__img" src="./img/icons/interior.svg" width="86" height="35" alt="Предметы интерьера">
-            <p>Предметы интерьера</p>
+
+    <section class="catalog wrapper">
+      <h2 class="visually-hidden">Список товаров</h2>
+      <div class="catalog__list">
+        <article class="catalog__item card">
+          <a href="#">
+            <img class="card__img" width="260" height="195" src="img/images/catalog/photo-1-mobile.jpg"
+              alt="игрушка «Зайчик-попрыгайчик»">
           </a>
-        </li>
-        <li class="categories__item categories__item--toys">
-          <a>
-            <img class="categories__img" src="./img/icons/toys.svg" width="86" height="35" alt="Детские игрушки">
-            <p>Детские игрушки</p>
+          <div class="card__specification">
+            <h3 class="card__title">
+              Зайчик-попрыгайчик
+            </h3>
+            <p class="card__subtitle">
+              Рост 30 см, вес 200 г
+            </p>
+            <div class="card__bay">
+              <p class="card__price">1 200 руб.</p>
+              <button class="card__button" type="button" aria-label="Положить в корзину">
+                <svg class="card__icon" width="20" height="19">
+                  <use xlink:href="#cart"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog__item card">
+          <a href="#">
+            <img class="card__img" width="260" height="195" src="img/images/catalog/photo-1-mobile.jpg"
+              alt="игрушка «Зайчик-попрыгайчик»">
           </a>
-        </li>
-      </ul>
-    </section>
-    <section class="offer wrapper">
-      <h2 class="offer__title section-title">Вязаные корзинки</h2>
-      <p class="offer__promo">Товар недели</p>
-      <p class="offer__desc">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трёх размерах.</p>
-      <table class="offer__data details">
-        <tbody>
-          <tr class="details__row">
-            <th class="details__characteristic">Цвет:</th>
-            <td class="details__data">«Тиффани»/серый</td>
-          </tr>
-          <tr class="details__row">
-            <th class="details__characteristic">Диаметр:</th>
-            <td class="details__data">25 см</td>
-          </tr>
-          <tr class="details__row">
-            <th class="details__characteristic">Высота:</th>
-            <td class="details__data">15 см</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class="offer__price">Цена: 990 руб.</div>
-      <button class="offer__button button" type="button">Заказать</button>
-    </section>
-
-    <section class="advantages wrapper">
-      <h2 class="advantages__title section-title">Коротко о нас:</h2>
-      <ul class="advantages__list">
-        <li class="advantages__item advantages__item--materials">
-          Экологически чистые материалы
-        </li>
-        <li class="advantages__item advantages__item--style">
-          Скандинавский стиль по российской цене
-        </li>
-        <li class="advantages__item advantages__item--likes">
-          Увеличивает лайкина фотографиях
-        </li>
-        <li class="advantages__item advantages__item--handmade">
-          Связано вручную с любовью и умилением
-        </li>
-        <li class="advantages__item advantages__item--support">
-          Поддержка отечественного производителя
-        </li>
-        <li class="advantages__item advantages__item--packaging">
-          Поставляется в подарочной упаковке
-        </li>
-      </ul>
-    </section>
-
-    <section class="reviews wrapper">
-      <h2 class="reviews__title section-title">Отзывы</h2>
-      <ul class="reviews__list">
-        <li class="reviews__item">
-          <blockquote class="reviews__text">
-            Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных
-            инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более
-            стильными, а также набирают больше лайков!
-          </blockquote>
-          <cite class="reviews__author">
-            Анастасия Красильникова
-            <span class="reviews__nickname">@misssssiskras</span>
-          </cite>
-        </li>
-      </ul>
-      <div class="reviews__toggle toggle">
-        <button class="toggle__item toggle__item--previous" aria-label="Предыдущий отзыв">
-          <img class="toggle__arrow" width="50" height="26" alt="Предыдущий отзыв"
-            src="./img/icons_main/huge-arrow-left.svg">
-        </button>
-        <button class="toggle__item toggle__item--next" aria-label="Следующий отзыв">
-          <img class="toggle__arrow" width="50" height="26" alt="Следующий отзыв"
-            src="./img/icons_main/huge-arrow-right.svg">
-        </button>
+          <div class="card__specification">
+            <h3 class="card__title">
+              Корзинка для белья
+            </h3>
+            <p class="card__subtitle">
+              Диаметр 15 см, высота 10 см
+            </p>
+            <div class="card__bay">
+              <p class="card__price">1 500 руб.</p>
+              <button class="card__button" type="button" aria-label="Положить в корзину">
+                <svg class="card__icon" width="20" height="19">
+                  <use xlink:href="#cart"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="catalog__item card">
+          <a href="#">
+            <img class="card__img" width="260" height="195" src="img/images/catalog/photo-1-mobile.jpg"
+              alt="игрушка «Зайчик-попрыгайчик»">
+          </a>
+          <div class="card__specification">
+            <h3 class="card__title">
+              Большая корзинка для игрушек
+            </h3>
+            <p class="card__subtitle">
+              Диаметр 30 см, высота 30 см
+            </p>
+            <div class="card__bay">
+              <p class="card__price">1 200 руб.</p>
+              <button class="card__button" type="button" aria-label="Положить в корзину">
+                <svg class="card__icon" width="20" height="19">
+                  <use xlink:href="#cart"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
       </div>
-      <button class="reviews__button button" type="button">Написать</button>
     </section>
-
-    <section class="contacts wrapper">
-      <h2 class="contacts__title section-title">Контакты</h2>
-      <div class="contacts__email">
-        <dl class="contacts__item">
-          <dt class="contacts__name">e-mail:</dt>
-          <dd class="contacts__value">
-            <a href="mailto:info@mimimishkashop.ru">
-              info@mimimishkashop.ru
-            </a>
-          </dd>
-        </dl>
+    <section class="video wrapper">
+      <h2 class="video__title">
+        Процесс производства
+      </h2>
+      <div class="video__player">
+        <video class="video__content" src="#" autoplay poster="img/video-mobile.jpg">
+          Sorry, your browser doesn't support embedded videos,
+          but don't worry, you can <a href="#">download it</a>
+          and watch it with your favorite video player!
+        </video>
+        <button class="video__play-button" type="button" aria-label="Воспроизвести видео."></button>
       </div>
-      <div class="contacts__address">
-        <dl class="contacts__item">
-          <dt class="contacts__name">адрес:</dt>
-          <dd class="contacts__value">г. Санкт-Петербургул<br>ул. Большая Конюшенная<br>д. 19/8, офис 101</dd>
-        </dl>
-      </div>
-      <div class="contacts__maps">
-      </div>
+      <p class="video__description">
+        По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+      </p>
+      <button class="video__button button" type="button">Сделать заказ</button>
     </section>
   </main>
 

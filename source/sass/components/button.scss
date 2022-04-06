@@ -1,0 +1,22 @@
+.button {
+  font: inherit;
+  text-align: center;
+  color: $main-text;
+  background-color: $white;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: 2px $main-text solid;
+  box-sizing: border-box;
+
+
+  &:hover,
+  &:focus {
+    background-color: $main-text;
+    color: $white;
+  }
+
+  &:active {
+    background-color: $main-text;
+    color: rgba($white, 0.3);
+  }
+}
