@@ -1,0 +1,157 @@
+.reviews {
+  @media (min-width: $tablet-width) {
+    min-height: 457px;
+    padding-top: 70px;
+    background-color: $white;
+    background-image: url(../../../img/images/review-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url(../../../img/images/review-desktop.jpg);
+    background-position: 50px 0;
+  }
+}
+
+.reviews__wrapper {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 225px;
+  }
+}
+
+.reviews__title {
+  line-height: 50px;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 5px;
+
+  @media (min-width: $tablet-width) {
+    order: 1;
+  }
+}
+
+.toggle__item {
+  display: block;
+  background-color: $white;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.reviews__text {
+  font-size: 15px;
+  line-height: 30px;
+  color: $main-text;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+
+  @media (min-width: $tablet-width) {
+    order: 3;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-right: 66px;
+    margin-bottom: 42px;
+  }
+}
+
+.reviews__author {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+
+  @media (min-width: $tablet-width) {
+    order: 4;
+    font-size: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 17px;
+  }
+}
+
+.reviews__nickname {
+  display: block;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 31px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 6px;
+  }
+}
+
+.reviews__toggle {
+  width: 260px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+  @media (min-width: $tablet-width) {
+    order: 5;
+    margin: 0;
+    justify-content: end;
+  }
+}
+
+.toggle__item {
+  display: inline-block;
+  width: 180px;
+  padding: 11px;
+  background-color: transparent;
+  border: 1px solid #ececec;
+
+  @media (min-width: $tablet-width) {
+    order: 5;
+    width: 86px;
+    padding: 11px;
+    border: none;
+  }
+}
+
+.toggle__arrow {
+  width: 50px;
+  height: 26px;
+  margin: 0 auto;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.reviews__button {
+  width: 100%;
+
+
+  @media (max-width: $mobile-width-only) {
+    width: 260px;
+    margin: 0;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 175px;
+    margin-left: auto;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    order: 2;
+
+  }
+}
