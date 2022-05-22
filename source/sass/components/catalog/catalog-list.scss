@@ -1,0 +1,19 @@
+.catalog__list {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 51px;
+  }
+}
+
+.catalog__item {
+  margin-bottom: 29px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 0;
+  }
+}

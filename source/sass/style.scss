@@ -1,10 +1,27 @@
 // Global
 @import "global/fonts";
 @import "global/variables";
+@import "global/mixins";
 @import "global/global";
 @import "global/main";
+@import "global/modal";
 
 // components
 
 @import "components/button";
 @import "components/visually-hidden";
+@import "components/index/header";
+@import "components/index/page-main-header";
+@import "components/index/categories";
+@import "components/index/offer";
+@import "components/index/advantages";
+@import "components/index/reviews";
+@import "components/index/contacts";
+@import "components/index/footer";
+@import "components/catalog/card";
+@import "components/catalog/catalog-list";
+@import "components/catalog/video";
+@import "components/form/form";
+@import "components/form/type";
+@import "components/form/user";
+@import "components/form/colors";

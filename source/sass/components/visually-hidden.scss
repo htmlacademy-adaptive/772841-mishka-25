@@ -4,7 +4,10 @@
   height: 1px;
   margin: -1px;
   padding: 0;
+  border: 0;
+  padding: 00;
   overflow: hidden;
   border: 0;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
