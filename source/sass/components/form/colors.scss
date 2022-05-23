@@ -52,14 +52,14 @@
   }
 }
 
-.form__input--colors+label::before {
+.form__input--colors + label::before {
   content: "";
   position: absolute;
   left: -2px;
   top: -10px;
   width: 38px;
   height: 38px;
-  border: 2px solid black;
+  border: 2px solid $headers;
 
   @media (min-width: $tablet-width) {
     width: 52px;
@@ -74,15 +74,15 @@
   }
 }
 
-.form__input--colors+label:hover::before {
+.form__input--colors + label:hover::before {
   border: 2px solid $brand-stroke;
 }
 
-.form__input--colors+label:active::before {
+.form__input--colors + label:active::before {
   border: 2px solid lighten($headers, 70%);
 }
 
-.form__input--colors:checked+label::after {
+.form__input--colors:checked + label::after {
   content: "";
   position: absolute;
   left: 5px;

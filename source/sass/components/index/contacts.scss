@@ -22,6 +22,15 @@
   }
 
   @media (min-width: $desktop-width) {
+    min-height: 572px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 136px 235px 52px;
+    grid-template-areas:
+      ". title title map map map"
+      ". text text map map map"
+      ". button button map map map";
+
     &::before {
       left: 50px;
       width: 1050px;
@@ -58,7 +67,7 @@
       top: -20px;
       width: 4px;
       height: 81px;
-      background-color: #231F20;
+      background-color: #231f20;
     }
   }
 
@@ -252,22 +261,5 @@
   @media (min-width: $desktop-width) {
     padding-left: 32px;
     margin-bottom: 31px;
-  }
-}
-
-.contacts {
-  @media (min-width: $desktop-width) {
-    min-height: 572px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 138px 272px 52px;
-    grid-template-areas:
-      ". title title map map map"
-      ". text text map map map"
-      ". button button map map map"
-  }
-
-  @media (min-width: $desktop-width) {
-    grid-template-rows: 136px 235px 52px;
   }
 }

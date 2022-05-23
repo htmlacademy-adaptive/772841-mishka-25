@@ -1,7 +1,6 @@
 .page {
   height: 100%;
-  // max-width: 1150px;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: 400;
@@ -22,13 +21,10 @@
 }
 
 .page__body {
-  // max-width: 1150px;
-  // box-sizing: border-box;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
   min-width: 320px;
-  // margin: 0 auto;
   padding: 0;
   color: $headers;
 
@@ -47,7 +43,6 @@
   margin: 0 auto;
   padding: 0 30px;
   box-sizing: border-box;
-
 
   @media (min-width: $tablet-width) {
     padding: 0 50px;
@@ -107,7 +102,7 @@
   }
 
   &--catalog {
-    margin-top: 0px;
+    margin-top: 0;
 
     @media (min-width: $tablet-width) {
       margin-top: -35px;
@@ -224,6 +219,7 @@
 
 .page-main__video {
   margin-bottom: 91px;
+  margin-top: 0;
 
   @media (min-width: $tablet-width) {
     margin-bottom: 61px;
@@ -232,8 +228,4 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 102px;
   }
-}
-
-.page-main__video {
-  margin-top: 00px;
 }

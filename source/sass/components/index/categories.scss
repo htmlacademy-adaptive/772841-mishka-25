@@ -72,7 +72,7 @@
     background-color: $brand-fill-dark;
     padding-top: 16px;
     padding-bottom: 22px;
-    padding-left: 0px;
+    padding-left: 0;
     align-self: flex-end;
     z-index: 10;
 
@@ -80,7 +80,6 @@
       background-color: $brand-dark-hover;
       padding-bottom: 27px;
       margin-top: -5px;
-
     }
 
     @media (min-width: $tablet-width) {
@@ -118,7 +117,6 @@
     &--toys {
       padding-left: 35px;
       padding-right: 41px;
-
     }
 
     &--interior {
