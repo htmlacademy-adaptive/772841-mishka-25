@@ -1,5 +1,6 @@
 .page {
   height: 100%;
+  // max-width: 1150px;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 30px;
@@ -10,25 +11,33 @@
     font-size: 15px;
     line-height: 30px;
   }
+
+  @media (min-width: $tablet-width) {
+    max-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1150px;
+  }
 }
 
 .page__body {
-  max-width: 1150px;
-  box-sizing: border-box;
+  // max-width: 1150px;
+  // box-sizing: border-box;
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
   min-width: 320px;
-  margin: 0 auto;
+  // margin: 0 auto;
   padding: 0;
   color: $headers;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    max-width: 768px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1150px;
+    max-width: 1150px;
   }
 }
 
@@ -37,6 +46,8 @@
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 30px;
+  box-sizing: border-box;
+
 
   @media (min-width: $tablet-width) {
     padding: 0 50px;
