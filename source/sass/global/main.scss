@@ -1,9 +1,6 @@
 .page {
   height: 100%;
-<<<<<<< HEAD
   // max-width: 1150px;
-=======
->>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 30px;
@@ -14,7 +11,6 @@
     font-size: 15px;
     line-height: 30px;
   }
-<<<<<<< HEAD
 
   @media (min-width: $tablet-width) {
     max-width: 768px;
@@ -28,39 +24,20 @@
 .page__body {
   // max-width: 1150px;
   // box-sizing: border-box;
-=======
-}
-
-.page__body {
-  max-width: 1150px;
-  box-sizing: border-box;
->>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   align-content: start;
   min-width: 320px;
-<<<<<<< HEAD
   // margin: 0 auto;
-=======
-  margin: 0 auto;
->>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
   padding: 0;
   color: $headers;
 
   @media (min-width: $tablet-width) {
-<<<<<<< HEAD
     max-width: 768px;
   }
 
   @media (min-width: $desktop-width) {
     max-width: 1150px;
-=======
-    width: 768px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1150px;
->>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
   }
 }
 
@@ -69,11 +46,8 @@
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 30px;
-<<<<<<< HEAD
   box-sizing: border-box;
 
-=======
->>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
 
   @media (min-width: $tablet-width) {
     padding: 0 50px;
