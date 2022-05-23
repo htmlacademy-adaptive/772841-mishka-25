@@ -1,6 +1,9 @@
 .form {
   margin-bottom: 55px;
+<<<<<<< HEAD
   margin-left: 30px;
+=======
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
 
   @media (min-width: $mobile-tablet-width) {
     margin: 0 75px;
@@ -135,6 +138,7 @@
     }
 
     &--phone {
+<<<<<<< HEAD
       padding-left: 52px;
       margin-left: 40px;
     }
@@ -153,6 +157,19 @@
       padding-top: 36px;
       padding-left: 62px;
       padding-right: 4px;
+=======
+      padding-left: 60px;
+    }
+
+    &--email {
+      padding-top: 20px;
+      padding-left: 63px;
+    }
+
+    &--extra {
+      padding-top: 34px;
+      padding-left: 39px;
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
     }
   }
 }
@@ -289,7 +306,11 @@
   }
 
   @media (min-width: $desktop-width) {
+<<<<<<< HEAD
     padding-left: 16px;
+=======
+    padding-left: 27px;
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
     padding-right: 170px;
     margin-bottom: 19px;
   }
@@ -361,7 +382,11 @@
   }
 
   @media (min-width: $desktop-width) {
+<<<<<<< HEAD
     padding-left: 2px;
+=======
+    padding-left: 27px;
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
     padding-right: 172px;
     margin-bottom: 85px;
   }

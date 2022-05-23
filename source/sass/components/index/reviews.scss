@@ -3,13 +3,21 @@
     min-height: 457px;
     padding-top: 70px;
     background-color: $white;
+<<<<<<< HEAD
     background-image: url("../img/index/review-tablet.jpg");
+=======
+    background-image: url(../../../img/images/review-tablet.jpg);
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
     background-repeat: no-repeat;
     background-position: 0 0;
   }
 
   @media (min-width: $desktop-width) {
+<<<<<<< HEAD
     background-image: url("../img/index/review-desktop.jpg");
+=======
+    background-image: url(../../../img/images/review-desktop.jpg);
+>>>>>>> d70da4b3d4af8b909cab91f88d0cbfd6526d0fd3
     background-position: 50px 0;
   }
 }
