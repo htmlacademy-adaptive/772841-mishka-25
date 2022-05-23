@@ -1,5 +1,8 @@
 .footer {
   background-color: $fill-main;
+}
+
+.footer__wrap {
   padding-top: 25px;
   padding-bottom: 23px;
 
@@ -13,15 +16,9 @@
     padding-bottom: 43px;
     padding-left: 50px;
     padding-right: 50px;
-
   }
 }
 
-.footer__wrap {
-  @media (min-width: $tablet-width) {
-
-  }
-}
 .footer__logo {
   display: none;
   fill: $headers;
@@ -63,7 +60,7 @@
 
 .social__svg--youtube {
   display: block;
-  margin-left: -5px
+  margin-left: -5px;
 }
 
 .footer__list {

@@ -20,7 +20,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 8px;
     margin-bottom: 28px;
   }
 
@@ -83,7 +82,6 @@
     width: 100%;
     height: 1px;
   }
-
 }
 
 .details {
@@ -123,7 +121,7 @@
 .details__characteristic {
   text-align: left;
   font-weight: normal;
-  padding-right: 0px;
+  padding-right: 0;
 
   @media (min-width: $tablet-width) {
     padding-right: 0;
