@@ -1,0 +1,144 @@
+.footer {
+  background-color: $fill-main;
+  padding-top: 25px;
+  padding-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-top: 51px;
+    padding-bottom: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+  }
+}
+
+.footer__wrap {
+  @media (min-width: $tablet-width) {
+
+  }
+}
+.footer__logo {
+  display: none;
+  fill: $headers;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+
+    &:hover {
+      fill: $brand-dark-hover;
+    }
+
+    &:active {
+      fill: lighten($headers, 70%);
+    }
+  }
+}
+
+.footer__logo-img {
+  fill: inherit;
+
+  @media (min-width: $tablet-width) {
+    width: 102px;
+    height: auto;
+  }
+}
+
+.footer__social {
+  width: 136px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+}
+
+.social__svg--twitter {
+  display: block;
+}
+
+.social__svg--youtube {
+  display: block;
+  margin-left: -5px
+}
+
+.footer__list {
+  @include ul-style;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: $tablet-width) {
+    align-items: flex-start;
+  }
+}
+
+.social__link {
+  fill: $social;
+
+  &:hover {
+    fill: $brand-dark-hover;
+  }
+
+  &:active {
+    fill: lighten($brand-dark-hover, 70%);
+  }
+}
+
+.social__svg {
+  fill: inherit;
+}
+
+.footer__list--social {
+  margin-bottom: 37px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    margin-bottom: 6px;
+  }
+}
+
+.footer__copyright {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 182px;
+  margin-top: 45px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    margin-top: -14px;
+  }
+}
+
+.copyright__text {
+  display: block;
+  font-size: 19px;
+  line-height: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.copyright__link {
+  display: block;
+  width: 28px;
+  height: 35px;
+  fill: $brand-fill-main;
+
+  &:hover {
+    fill: $brand-dark-hover;
+  }
+
+  &:active {
+    fill: lighten($brand-dark-hover, 70%);
+  }
+}
+
+.copyright__svg {
+  fill: inherit;
+}
