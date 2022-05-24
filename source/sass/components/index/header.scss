@@ -72,6 +72,7 @@
   }
 }
 
+
 .main-nav--open .main-nav__list {
   display: block;
 }
@@ -102,6 +103,25 @@
   position: relative;
   z-index: 1000;
 }
+
+.main-nav--nojs .main-nav__toggle {
+  display: none;
+}
+
+.main-nav--nojs .menu-main {
+  display: block;
+}
+
+.main-nav--nojs .menu-user {
+  display: block;
+}
+
+.main-nav--nojs .main-nav__logo-wrap {
+  height: 79px;
+}
+
+
+
 
 .main-nav__logo-wrap {
   height: 100%;
@@ -394,7 +414,7 @@
   }
 }
 
-.main-nav__delivery--link {
+.main-nav__delivery-link {
   color: $main-text;
   font-size: 15px;
 }
