@@ -2,6 +2,7 @@
   display: block;
   padding: 10px 0;
   margin-bottom: 26px;
+  width: $white;
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -79,7 +80,17 @@
 }
 
 .form__input--colors + label:active::before {
-  border: 2px solid lighten($headers, 70%);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form__input--colors + label:focus::before {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form__input--colors + label {
+  outline: none;
+  outline-offset: none;
+  border: none;
 }
 
 .form__input--colors:checked + label::after {

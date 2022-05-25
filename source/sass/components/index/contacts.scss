@@ -22,7 +22,10 @@
   }
 
   @media (min-width: $desktop-width) {
-    min-height: 572px;
+    max-width: 1150px;
+    margin: 0 auto;
+
+    min-height: 528px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 136px 235px 52px;
@@ -121,7 +124,7 @@
 
   &:active {
     color: $brand-dark-hover;
-    border-bottom: lighten($brand-dark-hover, 10%);
+    border-bottom: rgba(70, 193, 174, 0.3);
   }
 }
 
@@ -215,14 +218,12 @@
   @media (min-width: $desktop-width) {
     width: 100%;
     background-image: url("../img/index/map-desktop@1x 1.jpg");
-    margin: -34px 0 2px -44px;
-    padding-right: 50px;
+    margin: -34px 0 2px -4px;
   }
 }
 
 .contacts__cart {
   width: 100%;
-  padding-right: 50px;
   border: 0;
 
   @media (min-width: $tablet-width) {
@@ -230,8 +231,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-right: 0;
-    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
