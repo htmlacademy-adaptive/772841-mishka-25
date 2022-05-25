@@ -13,3 +13,125 @@ img {
 a {
   text-decoration: none;
 }
+
+.page {
+  height: 100%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 0 auto;
+
+  &--catalog {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
+
+.page__body {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  color: $headers;
+}
+
+.wrapper {
+  width: 320px;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 50px;
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1150px;
+  }
+}
+
+.section-title {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+
+  @media (min-width: $tablet-width) {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 53px;
+    line-height: 57px;
+  }
+}
+
+.main-title {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  &--index {
+    padding-top: 71px;
+
+    @media (min-width: $tablet-width) {
+      padding: 91px 50px 0;
+      width: 750px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: $desktop-width) {
+      font-size: 53px;
+      line-height: 57px;
+      padding: 91px 200px 0;
+      width: auto;
+    }
+  }
+
+  &--catalog {
+    margin-top: 0;
+
+    @media (min-width: $tablet-width) {
+      margin-top: -45px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-top: -66px;
+    }
+  }
+
+  &--form {
+    margin-top: -3px;
+
+    @media (min-width: $tablet-width) {
+      margin-top: -56px;
+    }
+
+    @media (min-width: $desktop-width) {
+      margin-top: -68px;
+    }
+  }
+}
+
+.main-title br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}

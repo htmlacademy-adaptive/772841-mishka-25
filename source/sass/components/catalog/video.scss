@@ -138,7 +138,7 @@
 
   &:active {
     transform: translate(-50%, -50%) scale(0.8);
-    background-color: lighten($brand-fill-main, 70%);
+    opacity: 0.3;
   }
 }
 

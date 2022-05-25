@@ -6,11 +6,15 @@
     background-image: url("../img/index/review-tablet.jpg");
     background-repeat: no-repeat;
     background-position: 0 0;
+    background-size: 48.7% auto;
   }
 
   @media (min-width: $desktop-width) {
     background-image: url("../img/index/review-desktop.jpg");
     background-position: 50px 0;
+    max-width: 1150px;
+
+    background-size: auto auto;
   }
 }
 
@@ -60,7 +64,9 @@
 }
 
 .reviews__text br {
-  display: none;
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .reviews__author {

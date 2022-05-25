@@ -1,7 +1,6 @@
 .type {
   padding: 11px 0 19px;
 
-
   @media (min-width: $tablet-width) {
     padding: 25px 0;
     margin-bottom: 14px;
@@ -39,7 +38,6 @@
   @media (min-width: $tablet-width) {
     padding-left: 112px;
     width: auto;
-
 
     &--toy {
       padding-top: 0;
@@ -79,7 +77,17 @@
 }
 
 .form__input--radio + label:active::before {
-  border: 2px solid lighten($headers, 70%);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form__input--radio + label:focus::before {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.form__input--radio + label {
+  outline: none;
+  outline-offset: none;
+  border: none;
 }
 
 .form__input--radio:checked + label::after {

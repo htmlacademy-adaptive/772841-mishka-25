@@ -67,11 +67,11 @@
   margin: 0;
 
   &:hover {
-    color: lighten($headers, 40%);
+    color: rgba(0, 0, 0, 0.6);
   }
 
   &:active {
-    color: lighten($headers, 70%);
+    color: rgba(0, 0, 0, 0.6);
   }
 
   &--toys {
@@ -136,14 +136,14 @@
   margin-right: -3px;
   background-color: transparent;
 
-  fill: lighten($headers, 70%);
+  fill: rgba(0, 0, 0, 0.3);
 
   &:hover {
     fill: $brand-fill-main;
   }
 
   &:active {
-    fill: lighten($brand-fill-main, 70%);
+    opacity: 0.3;
   }
 }
 

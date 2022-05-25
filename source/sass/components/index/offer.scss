@@ -1,5 +1,6 @@
 .offer__wrapper {
   display: grid;
+  max-width: 1150px;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: repeat(6, 1fr);

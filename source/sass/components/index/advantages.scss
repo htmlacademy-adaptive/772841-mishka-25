@@ -21,6 +21,8 @@
   }
 
   @media (min-width: $desktop-width) {
+    max-width: 1150px;
+
     &::before {
       left: 50px;
       width: 1050px;

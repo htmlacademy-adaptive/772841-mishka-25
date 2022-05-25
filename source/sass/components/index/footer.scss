@@ -17,6 +17,11 @@
     padding-left: 50px;
     padding-right: 50px;
   }
+
+  @media (min-width: $desktop-width) {
+    max-width: 1150px;
+    margin: 0 auto;
+  }
 }
 
 .footer__logo {
@@ -31,7 +36,7 @@
     }
 
     &:active {
-      fill: lighten($headers, 70%);
+      fill: rgba(0, 0, 0, 0.3);
     }
   }
 }
@@ -82,7 +87,7 @@
   }
 
   &:active {
-    fill: lighten($brand-dark-hover, 70%);
+    fill: rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -132,7 +137,7 @@
   }
 
   &:active {
-    fill: lighten($brand-dark-hover, 70%);
+    fill: rgba(0, 0, 0, 0.3);
   }
 }
 
